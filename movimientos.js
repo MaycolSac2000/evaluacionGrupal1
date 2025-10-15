@@ -22,20 +22,6 @@ verMovimientos = function () {
 filtrarMovimientos = function (numeroCuenta) {
     let movimientosCuenta = [];
     //Se barre el arreglo de movimientos
-<<<<<<< HEAD
-    for (let i = 0; i <numeroCuenta.lengt;i++){
-        let mov = movimientos[i];
-        if(mov.numeroCuenta === numeroCuenta){
-            movimientosCuenta.push(mov);
-        }
-
-    }
-
-    mostrarMovimientos(movimientosCuenta);
-}
-
-mostrarMovimientos=function(misMovimientos){
-=======
     //En cada iteración, verifica si el numero de cuenta del movimiento es igual al que recibe como parametro
     //En caso de serlo, agrega la cuenta al arreglo movimientosCuenta
     //Invoca a mostrarMovimientos, pasándole como parámetro movimientosCuenta
@@ -55,7 +41,6 @@ mostrarMovimientos=function(misMovimientos){
     Recibe un arreglo con los movimientos que va a mostrar en pantalla
 */
 mostrarMovimientos = function (misMovimientos) {
->>>>>>> 770d62640597208d0e8e3712bd14c94b3bbee009
     //Muestra en pantalla una tabla con los movimientos que recibe en misMovimientos
     //Columnas: NUMERO CUENTA, MONTO, TIPO
     //Si ya pinta correctamente la tabla, hacer el siguiente cambio:
